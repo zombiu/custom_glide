@@ -2,8 +2,8 @@ package com.custom.glide.load;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentActivity;
 
 /**
  * 管理生命周期 通过加载一个Fragment实现

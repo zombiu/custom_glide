@@ -2,9 +2,9 @@ package com.custom.glide.load;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentActivity;
 
 
 /**
@@ -41,8 +41,8 @@ public class Glide {
 
     /**
      * Begin a load with Glide that will tied to the give
-     * {@link android.support.v4.app.FragmentActivity}'s lifecycle and that uses the given
-     * {@link android.support.v4.app.FragmentActivity}'s default options.
+     * {@link FragmentActivity}'s lifecycle and that uses the given
+     * {@link FragmentActivity}'s default options.
      *
      * @param activity The activity to use.
      * @return A RequestManager for the given FragmentActivity that can be used to start a load.

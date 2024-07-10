@@ -1,7 +1,7 @@
 package com.custom.glide.cache;
 
 import android.graphics.Bitmap;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.LruCache;
 
 import com.custom.glide.model.Value;

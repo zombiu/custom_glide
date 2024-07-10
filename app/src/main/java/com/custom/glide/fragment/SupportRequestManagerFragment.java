@@ -2,13 +2,11 @@ package com.custom.glide.fragment;
 
 
 import android.annotation.SuppressLint;
-import android.support.v4.app.Fragment;
-
-import com.custom.glide.load.RequestTargetEngine;
+import androidx.fragment.app.Fragment;
 
 /**
  * 管理生命周期 兼容包
- * A view-less {@link android.support.v4.app.Fragment}
+ * A view-less {@link Fragment}
  * FragmentActivity fragment(android.support.v4.app.Fragment)
  * Created by A35 on 2020/3/23
  * Email:yin13753884368@163.com
